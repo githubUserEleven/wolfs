@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("./fonts/");
+  src: url("./fonts/") format("embedded-opentype"),
+    url("./fonts/icomoon.ttf?bykckb") format("truetype"),
+    url("./fonts/icomoon.woff?bykckb") format("woff"),
+    url("./fonts/icomoon.svg?bykckb#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-paw:before {
+  content: "\e900";
+}
+
+body {
+  background: #F5F5F5;
+  font-family: "Roboto";
+  color:#000;
+  margin-top: 100px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* стили шапки */
+#header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left:0;
+  right: 0;
+  background: #FFF;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* стили фавиконки */
+
+#header .icon {
+  font-size: 50px;
+  color:#F40909;
+  margin-right: 15px;
+}
+
+/* стили текста меню */
+
+#header .text {
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#header .text:hover {
+  text-decoration: none;
+}
+
+#header .logo-box {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+#header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header .link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+#header .link:hover {
+  color: rgb(120, 120, 123);
+}
+
+#header .bg-light {
+  border-radius: 10px;
+}
+
+#header .navbar {
+padding: 0 !important;
+overflow: hidden;
+}
+
+#header .navbar-nav li:hover {
+  background: #cbcbcb !important;
+}
+
+#header .navbar-nav .nav-link {
+  color: #000 !important;
+}
+
+.slider-main .bg-img {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.slider-main {
+  margin-bottom: 30px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+article {
+  margin-bottom: 40px;
+}
+
+article .box-img-right,
+section .box-img-right {
+    margin-left: 40px;
+    float: right;
+    clear: both;
+}
+
+article .box-img-left,
+section .box-img-left {
+  margin-right  : 40px;
+  float: left;
+  clear: both;
+}
